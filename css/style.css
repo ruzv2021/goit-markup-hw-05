@@ -316,6 +316,7 @@ button:focus {
 
 .photos-occupation .photo {
     position: relative;
+    cursor: pointer;
 }
 
 .absolute {
@@ -493,22 +494,22 @@ button:focus {
 .social-icon
 
 /* customers */
-.title-block {
+
+   .title-block {
     text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 50px;
 }
 
 .list-logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .list-logo li:not(:last-child) {
