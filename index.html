@@ -52,15 +52,48 @@
 
                     <button class="hero-button button" data-modal-open>Замовити послугу</button>
                     <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <button class="botton-close" data-modal-close> <svg width="11" height="11">
-                            <use href="./images/icons.svg#icon-vectormodal-close">
-                            </use>
-                        </svg></button>
-                    </div>
+                        <div class="modal">
+                            <button class="botton-close" data-modal-close> <svg width="11" height="11">
+                                    <use href="./images/icons.svg#icon-vectormodal-close">
+                                    </use>
+                                </svg></button>
+                            <form>
+
+                                <h2>Залиште свої дані, ми вам передзвонимо</h2>
+                                <div class="form-field">
+                                    <input type="text" name="username" required minlength="2" />
+                                    <label class="field">Ім'я</label>
+                                </div>
+
+                                <div class="form-field">
+                                    <label class="field">Телефон</label>
+                                    <input type="tel" name="tel" />
+                                </div>
+                            </form>
+
+                            <div class="form-field">
+                                <label class="field">Email</label>
+                                <input type="email" name="email">
+                            </div>
+
+                            <div class="form-field">
+                                <label class="field">Коментар</label>
+                                <textarea name="text" rows="5" placeholder="Введіть текст"></textarea>
+                            </div>
+
+                            <div class="form-field">
+                                <label class="field-down"></label>
+                                <input type="checkbox" name="conditions" value="Погоджуюся з розсилкою та приймаю Умови договору" />Погоджуюся з
+                                розсилкою та приймаю
+                                <a href="/" class="rights">Умови договору</a></div>
+                        </div>
+
+                        <button type="submit" class="sent field-down">Відправити</button>
+                        </form>
                     </div>
                 </div>
-                
+            </div>
+
             </div>
             </div>
         </section>
@@ -343,7 +376,19 @@
                     <a href="/" target="_blank" class="facebook link"></a>
                     <a href="/" target="_blank" class="linkedin link"></a>
                 </div>
+            </div>
+            <div class="feedback">
+                <h3>ПІДПИШИСЯ НА РОЗСИЛКУ</h3>
+                <form>
+                    <input type="email" name="email" placeholder="E-mail" />
 
+                </form>
+            </div>
+            <div>
+                <button class="telegram"> Підписатися<svg width="24" height="24" class="icon">
+                        <use href="./images/icons.svg#icon-telegram-footer">
+                        </use>
+                    </svg></button>
             </div>
         </div>
     </footer>
